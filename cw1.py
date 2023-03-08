@@ -1,4 +1,5 @@
-a = 'napis \ndrugi napis'
+"""
+    a = 'napis \ndrugi napis'
 print(a)
 b = 5
 c = 5.5
@@ -45,11 +46,34 @@ elif b<a:
 else:
     print(a, b)
 
-a=67
-b=55
-if a<b:
+a = input('podaj a: ')
+b = input('podaj b: ')
+c = input('podaj c: ')
+d = input('podaj d: ')
+a = int(a)
+b = int(b)
+c = int(c)
+d = int(d)
+
+if b>a and c<a:
     print(a)
-elif b<a:
-    print(b)
 else:
-    print(a, b)
+    print(b+c)
+
+for x in range(1, 6, 1):
+    print(x)
+else:
+    print('koniec for')
+
+
+lista =[6]
+
+for i in range(0, len(listy)):
+    print(i)
+"""
+
+# while licznik != len(listy):
+#     print(listy[licznik])
+#     licznik +=1
+
+
