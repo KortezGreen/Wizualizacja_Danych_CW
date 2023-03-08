@@ -18,3 +18,17 @@ i=b**1/2
 j = pow(b,1/2)
 print(i)
 print(j)
+
+listy = [6]
+print(listy)
+
+owoce = [3]
+owoce.insert(1, 'Figa')
+print(owoce)
+
+slownik = {'a':2, 1:2, 4: 'ab', 1:3}
+print(slownik)
+print(slownik[4])
+slownik['klucz'] = 'wartosc'
+print.pop('klucz')
+print(slownik)
