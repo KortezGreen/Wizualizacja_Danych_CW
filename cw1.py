@@ -76,4 +76,9 @@ for i in range(0, len(listy)):
 #     print(listy[licznik])
 #     licznik +=1
 
-
+licznik = 0
+liczby = [1,2,2,2,4,5,6]
+for i in (liczby):
+    if i == 2:
+        liczby.remove(i)
+    print(liczby)
