@@ -26,9 +26,30 @@ owoce = [3]
 owoce.insert(1, 'Figa')
 print(owoce)
 
-slownik = {'a':2, 1:2, 4: 'ab', 1:3}
+slownik = {'a':2, 1:2, 4: 'ab'}
 print(slownik)
 print(slownik[4])
 slownik['klucz'] = 'wartosc'
-print.pop('klucz')
 print(slownik)
+
+print('a=%(zm)d' % {'zm':12})
+napis = 'a={}, b={}'
+print(napis.format(12,12))
+
+a=67
+b=55
+if a<b:
+    print(a)
+elif b<a:
+    print(b)
+else:
+    print(a, b)
+
+a=67
+b=55
+if a<b:
+    print(a)
+elif b<a:
+    print(b)
+else:
+    print(a, b)
