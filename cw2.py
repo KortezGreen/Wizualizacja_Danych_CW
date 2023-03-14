@@ -1,7 +1,12 @@
+import math
+
 #zad 1
-# import math
 # e_pow_10 = math.exp(10)
 # print(e_pow_10)
+
+# print(math.floor(3.55))
+
+# print(math.floor(4.80))
 
 #zad 2
 # name = "KACPER"
