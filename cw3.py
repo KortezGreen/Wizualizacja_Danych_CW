@@ -7,14 +7,9 @@ import random
 # print(parzyste)
 
 #zad 3
-produkty = [
-            {"nazwa": "banany", "zakup": "sztuka"}
-            {"nazwa": "maka", "zakup": "kilogram"}
-            {"nazwa": "arbuz", "zakup": "sztuka"}
-            {"nazwa": "mleko", "zakup": "litr"}
-]
-sztuki = [p for p in produkty if "sztuka" in p["zakup"]]
-print(sztuki)
+# produkty ={"banany": "sztuka", "maka": "kilogram", "arbuz": "sztuka", "mleko": "litr"}
+# sztuki = [nazwa for nazwa, jednostka in produkty.items() if jednostka=="sztuka"]
+# print(sztuki)
 
 
 #zad 4
