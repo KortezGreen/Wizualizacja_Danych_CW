@@ -1,6 +1,11 @@
 import math
 import random
 
+#zad 1
+A = {1-x for x in range(1, 11)}
+B = {}
+C = {}
+
 #zad 2
 # lista1 = [random.randint(1, 100) for _ in range(10)]
 # parzyste = [x for x in lista1 if x % 2==0]
