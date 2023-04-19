@@ -35,3 +35,51 @@ result = np.dot(matrix1, matrix2)
 print(result)
 
 #zad 5
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+a = np.sin(matrix)
+print(a)
+
+#zad 6
+matrix = np.array([[1, 2, 3], [4, 5, 6]])
+a = np.sin(matrix)
+print(a)
+new_matrix = np.array([[0.5, 1.5, 2.5], [3.5, 4.5, 5.5]])
+b = np.cos(new_matrix)
+print(b)
+
+#zad 7
+matrix1 = np.array([[1, 2, 3], [4, 5, 6]])
+a = np.sin(matrix1)
+matrix2 = np.array([[0.5, 1.5, 2.5], [3.5, 4.5, 5.5]])
+b = np.cos(matrix2)
+result = a + b
+print(result)
+
+#zad 8
+matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+for row in matrix:
+    print(row)
+
+#zad 9
+matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+for element in matrix.flat:
+    print(element)
+
+#zad 10
+matrix = np.arange(81).reshape((9,9))
+print("Macierz początkowa:")
+print(matrix)
+new_matrix = matrix.reshape((3,27))
+print("Macierz po zmianie kształtu:")
+print(new_matrix)
+
+#zad 11
+vector = np.arange(12)
+matrix_3x4 = vector.reshape((3, 4))
+matrix_4x3 = np.arange(12).reshape((4, 3))
+matrix_2x6 = np.arange(12).reshape((2, 6))
+print(matrix_3x4.flatten())
+print(matrix_4x3.flatten())
+print(matrix_2x6.flatten())
+print(np.array_equal(matrix_3x4.flatten(), matrix_4x3.flatten()))
+print(np.array_equal(matrix_3x4.flatten(), matrix_2x6.flatten()))
