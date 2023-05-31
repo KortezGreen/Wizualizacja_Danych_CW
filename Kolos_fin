@@ -1,4 +1,4 @@
-(daszek na legendach to symbol potęgi jakby co)
+  (daszek na legendach to symbol potęgi jakby co)
 
 Grupa 4 zestaw A
 Zad1.
@@ -40,4 +40,49 @@ plt.show()
 
 
 
-DAJ OD RAZU Z CHATUGPT!
+import matplotlib.pyplot as plt
+
+fig, axes = plt.subplots(3, 3, figsize=(10, 10))
+
+# Tutaj dodaj kod tworzący poszczególne wykresy w siatce
+
+plt.tight_layout()
+plt.savefig('imie_nazwisko_zad2.png')
+plt.show()
+
+
+
+
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+data = pd.read_csv('glass.data', header=None)
+data.columns = ['Id', 'RI', 'Na', 'Mg', 'Al', 'Si', 'K', 'Ca', 'Ba', 'Fe', 'Type']
+
+new_data = data[data['Mg'] > 3.6]
+grouped_data = new_data.groupby('Type').size()
+
+plt.pie(grouped_data, labels=grouped_data.index, autopct='%1.1f%%')
+plt.title('Udział typów szkła')
+plt.savefig('imie_nazwisko_zad3.png')
+plt.show()
+
+
+
+
+
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+data = pd.read_csv('glass.data', header=None)
+data.columns = ['Id', 'RI', 'Na', 'Mg', 'Al', 'Si', 'K', 'Ca', 'Ba', 'Fe', 'Type']
+
+sns.barplot(x='Type', y='Na', data=data)
+plt.xlabel('Type of glass')
+plt.ylabel('Sodium')
+plt.title('Zużycie sodu dla każdego typu szkła')
+plt.savefig('imie_nazwisko_zad4.png')
+plt.show()
