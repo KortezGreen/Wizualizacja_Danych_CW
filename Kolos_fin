@@ -1,2 +1,24 @@
+(daszek na legendach to symbol potęgi jakby co)
 
-iloczyn kortezjańskifgfg
+Grupa 4 zestaw A
+Zad1.
+Za pomocą bibliotek matplotlib utwórz wykres liniowy funkcji f(x)=tan(x) + cos(x)/2, dla x z
+przedziału [5,10] wartości x zmieniają się co 0.15. Dodaj odpowiednie etykiety do osi
+wykresu, tytuł linii, legendę oraz tytuł wykresu. Dodatkowo wyświetl oba wektory
+przekazywane na wykres. Ustaw zakres oś x na granice przedziału.
+Zadanie 2. (10pkt.) Za pomocą matplotlib odwzoruj siatkę wykresów z poniższego zdjęcia.
+Siatkę zapisz do pliku(imie_nazwisko_zad2.png)
+Zad 3. (6pkt) Używając biblioteki pandas wczytaj zawartość pliku ‘glass.data’ do ramki
+danych i wykonaj następujące kroki:
+• utwórz nową ramkę danych gdzie znajdą się te wiersze, w których wartość dla
+magnezu jest większa od 3.6 (Magnesium).
+• Na nowej ramce danych dokonaj grupowania danych po kolumnie Type of glass
+• Na wykresie kołowym przedstaw procentowy udział każdego z typów szkła.
+Zad 4.
+Za pomocą biblioteki pandas wczytaj zawartość pliku „glass.data”, następnie na wykresie
+słupkowym z biblioteki seaborn pokaż zużycie sodu dla każdego z typu szkła (Sodium, Type
+of glass). Na wykresie mają być podpisane etykiety dotyczące osi, legenda, tytuł wykresu.
+Ustaw styl wykresu na podstawowy.
+Każdy wykres ma być zapisany do pliku z rozszerzeniem .png według wzoru
+‘imię_nazwisko_nr_zadania.png’. Na każdym wykresie wszystkie elementy mają być
+widoczne wraz z tytułem i opisami etykiet.
