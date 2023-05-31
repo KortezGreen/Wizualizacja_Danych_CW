@@ -52,7 +52,7 @@ plt.show()
 
 
 
-
+#remember his del
 
 
 import pandas as pd
