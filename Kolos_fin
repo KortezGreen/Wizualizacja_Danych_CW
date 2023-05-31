@@ -22,3 +22,18 @@ Ustaw styl wykresu na podstawowy.
 Każdy wykres ma być zapisany do pliku z rozszerzeniem .png według wzoru
 ‘imię_nazwisko_nr_zadania.png’. Na każdym wykresie wszystkie elementy mają być
 widoczne wraz z tytułem i opisami etykiet.
+
+
+import matplotlib.pyplot.plt
+import numpy as np
+
+x = np.arange(5,10,0.15)
+y = np.tan(x) + np.cos(x)/2
+
+plt.plot(x,y,label='f(x) = tan(x) + cos(x)/2’)
+plt.xlabel('x')
+plt.ylabel('f(x)')
+plt.title( ...)
+plt.legend()
+plt.xlim(5,10)
+plt.show()
